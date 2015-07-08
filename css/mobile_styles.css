@@ -1,0 +1,361 @@
+@charset "UTF-8";
+/* Typography */
+p, li {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size:18px;
+	color:#333333;
+}
+h1 {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size:30px;
+	color:#0085b2;
+}
+h2 {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size:34px;
+	color:#0085b2;
+}
+h6 {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight:700;
+	color:#f18200;
+	padding:15px 0 10px 0;
+}
+.heading {
+	font-weight:700;
+	color:#46b7d5;
+}
+.sub_heading {
+	font-weight:900;
+	color:#0085b2;
+	font-style:italic;
+	font-size:36px;
+}
+a:link, a:visisted {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size:18px;
+	color:#333333;
+}
+a:hover, a:active {
+	text-decoration:none;
+}
+
+/* Sticky Bar */
+.sticky-nav {
+	padding:5px;
+	background:#46b7d5;
+	color:#fff;
+	border:none;
+	line-height:40px;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	-webkit-box-shadow: 0 4px 10px -3px gray;
+	-moz-box-shadow: 0 4px 10px -3px gray;
+	box-shadow: 0 4px 10px -3px gray;
+}
+.join-btn,
+.join-btn:visited {
+	background-color:#f18200;
+	border-color:#e77d01;
+	color:white;
+	margin-top:1px;
+	margin-right:10px;
+	padding:6px;
+	width:30%;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight:600;
+	font-size:22px;
+	-webkit-box-shadow: 0 4px 10px -3px gray;
+	-moz-box-shadow: 0 4px 10px -3px gray;
+	box-shadow: 0 4px 10px -3px gray;
+}
+.join-btn:hover,
+.join-btn:active {
+	background-color:#e77d01;
+	color:white;
+}
+
+/* Main Nav */
+.navbar-default .navbar-brand {
+	color:#ffffff;
+}
+.navbar-default .navbar-brand:hover {
+	color:#ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+	border:none;
+	width:100%;
+	text-align:center;
+	margin-top:10px;
+}
+.secondary-nav {
+	margin-top:60px;
+	background:none;
+	border:none;
+}
+
+/* Nav Toggle */
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle:hover {
+	background:none;
+	border:none;
+}
+.navbar-toggle {
+	margin-top:18px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color:#dedede;
+	height:4px;
+	width:30px;
+}
+.navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+}
+
+/* Main Section */
+header {
+	text-align:center;
+	background-image: url('https://ecommission.com/daniel/mobile_homepage/imgs/mobile_hero.png');
+	background-size:cover;
+	background-color:#46b7d5;
+    background-repeat: no-repeat;
+    background-position: center; 
+	border-bottom:3px solid #46b7d5;
+	padding:10px 0;
+	
+}
+.fa-video-camera {
+	color:#ffffff;
+	background-color:#f18200;
+	padding:6px;
+	-webkit-border-radius: 50%; 
+	-moz-border-radius: 50%; 
+	border-radius: 50%;
+}
+
+/* Buttons */
+#button_group {
+	margin-top:35px;
+}
+.btn-default:hover {
+	border-color:transparent;
+}
+.agent-btn,
+.broker-btn,
+.start-btn {
+	display:block;	
+	padding:20px;
+	margin-bottom:20px;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size:20px;
+	font-weight:600;
+	-webkit-box-shadow: 0 4px 10px -3px gray;
+	-moz-box-shadow: 0 4px 10px -3px gray;
+	box-shadow: 0 4px 10px -3px gray;
+	white-space:normal;
+    word-wrap:break-word;
+	
+}
+.agent-btn {
+	background-color:#f18200;
+	border-color:#e77d01;
+	color:white;
+}
+.agent-btn:hover {
+	background-color:#e77d01;
+	color:white;
+}
+.broker-btn {
+	background-color:#46b7d5;
+	border-color:#3fb0ce;
+	color:#ffffff;
+}
+.broker-btn:hover {
+	background-color:#3fb0ce;
+	color:#ffffff;
+}
+.start-btn {
+	margin-top:30px;
+	background-color:#f18200;
+	border-color:#e77d01;
+	color:white;
+}
+.start-btn:hover {
+	background-color:#e77d01;
+	color:white;
+}
+
+/* Section Margin(s) */
+#video, #edu {
+	margin-top:20px;
+}
+
+/* Section Align Text */
+#funds, #partners {
+	text-align:center;
+}
+
+/* Privacy Logos */
+.secured_logos {
+	margin:0 auto;
+	text-align:center;
+	vertical-align:top;
+}
+.secured_logos > img {
+	padding-right:10px;
+}
+.secured_logos > img:nth-child(3) {
+	padding-right:0;
+}
+
+/* Feature */
+.featurette {
+	background-color:#f9f9f9;
+	border:1px solid #0085b2;
+}
+ul {
+	padding-left:10px;
+}
+.featurette ul li {
+	list-style:none;
+	margin-bottom:10px;
+}
+.feature_heading {
+	margin-top:0;
+	padding:20px;
+	color:white;
+}
+.feature_title {
+	background-color:#0085b2;
+	color:white;
+	text-align:center;
+}
+.feature_content {
+	padding:20px;
+}
+p.feature_text {
+	margin-bottom:20px;
+}
+i {
+	color:#0085b2;
+}
+
+/* Carousel */
+#quote-carousel {
+	padding: 0 10px 30px 10px;
+	margin-top: 10px;
+	text-align:center;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+.carousel-quotes {
+	font-style:italic;
+	font-weight:200;
+	font-size:14px;
+}
+/* indicator position */
+#quote-carousel .carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: -10px;
+	margin-right: -19px;
+}
+/* indicator color */
+#quote-carousel .carousel-indicators li {
+	background: #46b7d5;
+}
+/* active indicator */
+#quote-carousel .carousel-indicators .active {
+	background: #0085b2;
+	height:10px;
+	width:10px;
+	margin-bottom:1px;
+}
+
+/* Partners */
+.brands {
+	margin:30px auto 0 auto;
+}
+
+/* Footer */
+footer {
+	background-color:#46b7d5;
+	color:#ffffff;
+	padding:35px 0;
+	text-align:center;
+	margin-top:35px;
+}
+footer p,
+footer a,
+footer a:visited {
+	font-size:14px;
+	color:#ffffff;
+}
+footer a:hover,
+footer a:active {
+	font-size:14px;
+	color:#ffffff;
+	text-decoration:underline;
+}
+
+/* Media Queries */
+@media (min-width:768px){
+.navbar-header {
+	float:none;
+}
+.navbar-nav {
+	float:right;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+	margin-top:-25px;
+}
+}
+@media (min-width: 767px) and (max-width:991px){
+.navbar-nav {
+	float:none;
+	display:inline-block;
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+.navbar-collapse.collapse {
+	display: none !important;
+}
+.navbar-collapse.collapse.in {
+	display: block !important;
+}
+.navbar-header .collapse, .navbar-toggle {
+	display:block !important;
+}
+.navbar-nav {
+	margin-top:40px;
+}
+.navbar-header {
+	float:none;
+}
+}
+@media (max-width: 400px) {
+.join-btn,
+.join-btn:visited {
+	width:21%;
+	font-size:18px;
+	margin-top:5px;
+}
+}
+@media (max-width: 360px) {
+p, a {
+	font-size:16px;
+}
+.logo{
+	height:40px;
+}
+}
+@media (max-width: 240px) {
+.logo {
+	height:26px;
+	margin-top:10px;
+}
+.sticky-nav a {
+	font-size:12px;
+}
+}
+
