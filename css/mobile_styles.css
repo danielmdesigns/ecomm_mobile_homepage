@@ -156,7 +156,7 @@ header {
     word-wrap:break-word;
 	
 }
-.agent-btn {
+.agent-btn, .agent-btn:visited {
 	background-color:#f18200;
 	border-color:#e77d01;
 	color:white;
@@ -165,7 +165,7 @@ header {
 	background-color:#e77d01;
 	color:white;
 }
-.broker-btn {
+.broker-btn, .broker-btn:visited {
 	background-color:#46b7d5;
 	border-color:#3fb0ce;
 	color:#ffffff;
@@ -174,7 +174,7 @@ header {
 	background-color:#3fb0ce;
 	color:#ffffff;
 }
-.start-btn {
+.start-btn, .start-btn:visited {
 	margin-top:30px;
 	background-color:#f18200;
 	border-color:#e77d01;
